@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogiTrack - Sistema de Logística</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <h2>📦 LogiTrack</h2>
+            <p>Gerenciamento de Encomendas</p>
+            
+            <div class="input-group">
+                <input type="text" id="codigo" placeholder="Código de Rastreio">
+                <input type="text" id="destinatario" placeholder="Nome do Destinatário">
+                <input type="text" id="cep" placeholder="CEP (apenas números)">
+
+                <input type="text" id="logradouro" placeholder="Rua" readonly tabindex="-1">
+                <input type="text" id="bairro" placeholder="Bairro" readonly tabindex="-1">
+                <input type="text" id="cidade" placeholder="Cidade" readonly tabindex="-1">
+                <input type="text" id="estado" placeholder="Estado" readonly tabindex="-1">
+            </div>
+
+            <button onclick="salvar()">Cadastrar Encomenda</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</body>
+</html>
