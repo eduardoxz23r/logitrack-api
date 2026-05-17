@@ -6,11 +6,11 @@ Sistema de gerenciamento de encomendas com preenchimento automático de endereç
 
 ## 🚀 Tecnologias
 
-- **Backend:** Java Spring Boot (Railway)
+- **Backend:** Java Spring Boot (Render)
 
 - **Frontend:** HTML, CSS, JavaScript (Netlify)
 
-- **Banco de Dados:** MySQL
+- **Banco de Dados:** MySQL (Clever Cloud)
 
 - **Integração:** API ViaCEP
 
