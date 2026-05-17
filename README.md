@@ -14,6 +14,8 @@ Sistema de gerenciamento de encomendas com preenchimento automático de endereç
 
 - **Integração:** API ViaCEP
 
+- **Deploy:** Docker (Render)
+
 
 
 ## 🛠️ O que eu desenvolvi:
