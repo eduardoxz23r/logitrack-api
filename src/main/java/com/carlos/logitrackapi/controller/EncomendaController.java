@@ -3,6 +3,7 @@ package com.carlos.logitrackapi.controller;
 import com.carlos.logitrackapi.model.Encomenda;
 import com.carlos.logitrackapi.service.EncomendaService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
@@ -24,5 +25,10 @@ public class EncomendaController {
     @PostMapping  // Quando alguém enviar um "NOVO" pacote para o sistema
     public Encomenda criar(@RequestBody Encomenda encomenda) {
         return service.salvar(encomenda);
+    }
+
+    @GetMapping("/health")
+    public ResponseEntity<String> health() {
+        return ResponseEntity.ok("OK");
     }
 }

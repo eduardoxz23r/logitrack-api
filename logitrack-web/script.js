@@ -28,7 +28,7 @@ async function salvar() {
     console.log("Tentando enviar dados:", encomenda);
 
     try {
-        const response = await fetch('https://logitrack-api-production.up.railway.app/encomendas', {
+        const response = await fetch('https://logitrack-api-rwgh.onrender.com/encomendas', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(encomenda)
