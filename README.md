@@ -1,7 +1,6 @@
 # 📦 LogiTrack System
 
-Sistema de gerenciamento de encomendas com preenchimento automático de endereço e persistência em banco de dados.
-
+Sistema full stack de gerenciamento de encomendas com preenchimento automático de endereço via API ViaCEP e persistência em banco de dados MySQL.
 
 
 ## 🚀 Tecnologias
@@ -20,13 +19,12 @@ Sistema de gerenciamento de encomendas com preenchimento automático de endereç
 
 ## 🛠️ O que eu desenvolvi:
 
-- API REST para controle de encomendas.
-
-- Integração de Frontend com Backend via Fetch API.
-
-- Validação de campos obrigatórios no lado do cliente.
-
-- Deploy automatizado e gerenciamento de variáveis de ambiente.
+- API REST completa para controle de encomendas
+- Integração Frontend/Backend via Fetch API
+- Preenchimento automático de endereço por CEP
+- Validação de campos obrigatórios no lado do cliente
+- Deploy automatizado com Docker na plataforma Render
+- Gerenciamento de variáveis de ambiente
 
 
 > 🔗 **Acesse o projeto ao vivo:** [https://logitrack-system.netlify.app/](https://logitrack-system.netlify.app/)
